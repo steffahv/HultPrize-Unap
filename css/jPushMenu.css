@@ -100,11 +100,11 @@
 }
 
 /* Push classes applied to the body */
-.push-body {
+/*.push-body {
     overflow-x: hidden;
     position: relative;
     left: 0;
-}
+}*/
 
 .push-body-toright {
     left: 240px;
