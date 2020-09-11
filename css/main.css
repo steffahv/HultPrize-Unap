@@ -9,7 +9,7 @@ Url: https://www.Frittt.com
 /*==================================
 =            Typography            =
 ==================================*/
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body{
 	background-color: #fff;
@@ -224,8 +224,8 @@ a:focus{
 }
 .logo-left{
 	position: absolute;
-	top: 50px;
-	left: 50px;
+	top: 40px;
+	left: 40px;
 	z-index: 1;
 	-webkit-transition: top .5s ease-in-out;
 	transition: top .5s ease-in-out;
@@ -304,7 +304,7 @@ a:focus{
 #home-slider .caption-wide{margin-top: -204px;}
 #home-slider .caption .main-title {
   color: #fff;
-  font-size: 90px;
+  font-size: 70px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -363,6 +363,14 @@ a:focus{
 #features > div > div > div:nth-child(1) > div > a:nth-child(4){
 	border-color: #e6007f;
 	margin:1em;
+}
+#features > div > div > div:nth-child(1){
+	padding-right: 0;
+	padding-left: 0;
+}
+#features > div > div > div:nth-child(2) {
+	padding-right: 0;
+	padding-left: 0;
 }
 /*-----  End of home-slider  ------*/
 
@@ -619,7 +627,7 @@ a:focus{
 	overflow: hidden;
 }
 .team-member .caption .color-overlay{
-	background: rgba(240, 57, 76, 0.7);
+	background: rgba(240, 76, 152, 0.7);
 	left: 100%;
 	opacity: 0;
 	-webkit-transition: all .3s;
@@ -663,6 +671,11 @@ a:focus{
 	color: #454545;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+.img-100p{
+	width: 100%;
+	border-radius: 15px;
+	
 }
 /*-----  End of teams  ------*/
 
@@ -748,7 +761,7 @@ a:focus{
 	box-shadow: none;
 	border: 10px solid transparent;
 	background: none;	
-	text-align: center;
+	text-align: justify;
 }
 #client-feedback .main-content p{
 	color: #fff;
