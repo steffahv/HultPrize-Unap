@@ -14,7 +14,7 @@ Url: https://www.Frittt.com
 body{
 	background-color: #fff;
 	font-size: 14px;
-	color: #424242;
+	color: #ffff#424242;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 }
@@ -41,10 +41,10 @@ h1,h2,h3,h4,h5,h6,p{
 }
 p{
 	font-size: 14px;
-	color: #999999;
+	color: #EDEDED;
 }
 a{
-	color: #999999;
+	color: #EDEDED;
 	-webkit-transition: background .3s, color .3s;
 	transition: background .3s, color .3s;
 }
@@ -75,7 +75,7 @@ a:focus{
 .mtb20{margin-bottom: 20px;}
 .mtb30{margin-bottom: 30px;}
 .mtb40{margin-bottom: 40px;}
-.mtb50{margin-bottom: 50px;}
+.mtb50{margin-bottom: 20px;}
 .mtb60{margin-bottom: 60px;}
 .mtb70{margin-bottom: 70px;}
 .mtb80{margin-bottom: 80px;}
@@ -119,10 +119,11 @@ a:focus{
 .section-title{
 	font-size: 30px;
 	text-transform: uppercase;
-	margin-top: 100px;
+	margin-top: 70px;
 	margin-bottom: 50px;
 	text-align: center;
-	color: #e6007f;
+	color: #ffffff;
+	font-weight: 700;
 }
 .section-info{
 	margin-bottom: 60px;
@@ -354,15 +355,20 @@ a:focus{
 .navbar-brand h1 {
   margin-top: 5px;
 }
-#features > div > div > div:nth-child(1) > div > a:nth-child(3) {
+#features > div > div > div:nth-child(1) > div > a:nth-child(11) {
 
-	border-color: #e6007f;
+	background-color: #100C08;
+	padding: 1em;
 	margin:1em;
+	color:#ededed;
 	
 }
-#features > div > div > div:nth-child(1) > div > a:nth-child(4){
-	border-color: #e6007f;
+#features > div > div > div:nth-child(1) > div > a:nth-child(12){
+	background-color: #100C08;
+	padding: 1em;
 	margin:1em;
+	color:#ededed;
+	
 }
 #features > div > div > div:nth-child(1){
 	padding-right: 0;
@@ -381,9 +387,8 @@ a:focus{
 ================================*/
 
 #features{
-	margin-top: 20px;
-	padding-top: 100px;
-	margin-bottom: 100px;
+	margin:10px;
+	
 }
 #features .header-content .title{
 	font-size: 40px;
@@ -406,10 +411,11 @@ a:focus{
 	line-height: 100%;
 }
 .feature-item .content .title{
-	font-size: 20px;
+	font-size: 2em;
 	color: #e6007f;
 	margin-bottom: 40px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
+	font-weight: 700;
 }
 .feature-item .content:hover{
 	background-color: #e6007f; 
@@ -423,6 +429,11 @@ a:focus{
 }
 #features > div > div > div:nth-child(2) > div {
 	background-color: #e6007f;
+}
+#features > div > div > div:nth-child(1) > div > p {
+	color: #100C08;
+	text-align: justify;
+	font-size: large;
 }
 /*-----  End of features  ------*/
 
@@ -456,7 +467,7 @@ a:focus{
 .each-courses .title{
 	font-size: 18px;
 	text-transform: uppercase;
-	color: #fff;
+	color: #e6007f;
 	margin-bottom: 20px;
 	-webkit-transition: all .3s;
 	transition: all .3s;
@@ -620,18 +631,20 @@ a:focus{
 =============================*/
 
 #teams{
-	background-color: #f6f6f6;
+	background-color:#e6007f;
+	text-align: center;
 }
 .team-member .member-pic{
 	position: relative;
 	overflow: hidden;
 }
 .team-member .caption .color-overlay{
-	background: rgba(240, 76, 152, 0.7);
+	background: rgba(97, 53, 74, 0.7);
 	left: 100%;
 	opacity: 0;
-	-webkit-transition: all .3s;
+	-webkit-transition: all .3;
 	transition: all .3s;
+	border-radius: 15px;
 }
 .team-member .caption .social-icon{
 	text-align: center;
@@ -668,14 +681,19 @@ a:focus{
 }
 .team-member .member-info .name{
 	font-size: 16px;
-	color: #454545;
+	color: #ffffff;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	font-size: medium;
+	font-weight: 600;
 }
 .img-100p{
 	width: 100%;
 	border-radius: 15px;
 	
+}
+#teams > div > p {
+	font-size: medium;
 }
 /*-----  End of teams  ------*/
 
@@ -861,7 +879,7 @@ a:focus{
 }
 #latest-blog .pagination>li>a{
 	font-size: 16px;
-	color: #999999;
+	color: #2c2424;
 	border-color: #999999;
 }
 #latest-blog .pagination>li:first-child>a,
@@ -1000,6 +1018,20 @@ a:focus{
 	color: #fff;
 	background: #333;
 }
+#join-us > div > div > h3 {
+	color:#e6007f ;
+	font-weight: 700;
+
+}
+#client-feedback > div > div > h3 {
+	color:#e6007f ;
+	font-weight: 700;
+}
+#join-us > div > div > p.section-info.col-sm-8.col-sm-offset-2.wow.fadeInDown.animated {
+	color: #100C08;
+	font-size: large;
+	font-weight: 600;
+}
 
 /*-----  End of join-us  ------*/
 
@@ -1072,11 +1104,11 @@ a:focus{
 ==============================*/
 
 #footer{
-	background: #333333;
-	padding-top: 100px;
+	background: #100C08;
+	padding-top: 20px;
 }
 #footer .bottom-part{
-	padding-bottom: 70px;
+	padding-bottom: 20px;
 }
 .social-icon-footer li{
 	margin-right: 10px;
@@ -1101,7 +1133,7 @@ a:focus{
 	padding-left: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	color: #999999;
+	color: #EDEDED;
 }
 .subscribe-form input:focus{
 	-webkit-box-shadow: none;
@@ -1109,11 +1141,11 @@ a:focus{
 	border-color: #e6007f#e6007f;
 }
 .subscribe-form input::-webkit-input-placeholder {
-   color: #666666;
+   color: #9D9D9C;
 }
 
 .subscribe-form input:-moz-placeholder { /* Firefox 18- */
-   color: #666666;  
+   color: #9D9D9C;  
 }
 
 .subscribe-form input::-moz-placeholder {  /* Firefox 19+ */
@@ -1124,12 +1156,39 @@ a:focus{
    color: #666666;  
 }
 .copyright{
-	background-color: #292929;
+	background-color: #100C08;
 	padding: 15px;
 	font-size: 12px;
 }
 .copyright .info a:hover{
 	color:  #e6007f;
+}
+.copyright .info {
+	text-align: center;
+}
+#footer > div.container.bottom-part > div > div:nth-child(1) > p > img{
+	width: 30%;
+	height: 30%;
+}
+#footer > div.container.bottom-part > div > div:nth-child(2) > p > img {
+	width: 30%;
+	height: 30%;
+}
+#footer > div.container.bottom-part > div > div:nth-child(3) > p > img {
+	width: 30%;
+	height: 30%;
+}
+#footer > div.container.bottom-part > div > div:nth-child(1) {
+	text-align: center;
+}
+#footer > div.container.bottom-part > div > div:nth-child(2) {
+	text-align: center;
+}
+#footer > div.container.bottom-part > div > div:nth-child(3) > ul {
+	text-align: center;
+}
+#footer > div.container.bottom-part > div > div.col-sm-12.col-md-12 {
+	text-align: center;
 }
 /*-----  End of footer  ------*/
 
