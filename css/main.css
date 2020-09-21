@@ -632,18 +632,26 @@ a:focus{
 =============================*/
 
 #cd-bckg {
-	background-color: #f6f1e9;
-	width: 100%;
+	background-color: #100C08;
+	width: 90%;
 	border-radius: 5em;
+	text-align: center;
 }
 #cd-bckg > h2 {
-	color: #100C08;
+	color: #FFFFFF;
 	margin-bottom: 30px;
 	margin-top: 35px;
+	
 }
 #teams{
-	background-color:#e6007f;
+	background-color:#100C08;
 	text-align: center;
+	
+}
+#team-scnd {
+	width: 90%;
+	margin-bottom: 1em;
+	
 }
 .team-member .member-pic{
 	position: relative;
@@ -674,33 +682,36 @@ a:focus{
 	left: 0;
 	opacity: 1;
 }
+#cd-bckg > h3 {
+	color:#ededed;
+}
 .team-member .member-info .position{
 	margin-top: 25px;
-	color:#ededed;
-	font-size: 18px;
+	color:#868684;
+	font-size: 16px;
 }
 .team-member .member-info .name{
 	font-size: 18px;
-	color: #100C08;
+	color: #e6007f;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-weight: 600;
 }
 .team-member .cd-info .position{
 	margin-top: 25px;
-	color:#9D9D9C;
+	color:#868684;
 	font-size: 18px;
 }
 .team-member .cd-info .name{
 	font-size: 20px;
-	color: #100C08;
+	color: #e6007f;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-weight: 600;
 }
 .team-member .cd-info .carrera{
 	font-size: 16px;
-	color: #100C08;
+	color: #ffffff;
 	margin-top: 10px;
 }
 .img-100p{
