@@ -388,7 +388,11 @@ a:focus{
 ================================*/
 
 #features{
-	margin:10px;
+	text-align: center;
+	/*background-color: #e6007f;*/
+	background-image: url(../img/frame_01.png);
+	background-position: center;
+	
 	
 }
 #features .header-content .title{
@@ -605,7 +609,7 @@ a:focus{
 #count-down .color-overlay{
 	width: 100%;
 	height: 100%;
-	background: rgba(240, 57, 200, 0.7);
+	background: rgba(240, 47, 137, 0.7);
 }
 #count-down .section-title,
 #count-down .counter-content p,
